@@ -24,7 +24,7 @@ const ProductDetails=()=>{
 
     useEffect(()=>{
         if(productId && productId !== "") fetchProductDetail();
-    },[productId]);
+    },);
     return(
         <div className="card">
         <div className="image">
